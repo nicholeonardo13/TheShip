@@ -114,7 +114,7 @@ function RocketPage() {
                         </Form>
         </div>
         <Row xs={1} md={4} className="g-4 spacing-rocket spacing-row">
-            {data.ships?.filter(rocket => search? rocket.name === search:true).map(rocket => {
+            {data.ships?.filter(rocket => search? rocket.name.toLowerCase().includes(search.toLowerCase()):true).map(rocket => {
                 return (
                     <Col>
                         <Card style={{ height: '28rem' , backgroundSize: 'cover' , width: '100%'}}>
