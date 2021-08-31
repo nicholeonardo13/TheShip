@@ -1,0 +1,32 @@
+.search-container{
+    display: flex;
+    justify-content: center;
+    /* justify-items: center; */
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-top: 25px;
+}
+
+.rock-container{
+    display: flex;
+    flex-direction: column;
+    /* flex-flow: row wrap; */
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+.spacing-row{
+    margin-bottom: 40px;
+}
+
+
+.spacing-rocket {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+

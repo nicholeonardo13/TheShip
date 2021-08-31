@@ -32,7 +32,23 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+
+.spacing {
+  margin-left: 10px;
+}
+
+.spacing-ig {
+  margin-left: -10px;
+}
+
+.spacing-sosmed{
+  margin-left: 20px;
+}
+
+
